@@ -13,12 +13,12 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel='shortcut icon' href='../public/favicon.ico'/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="https://next-furniture-lime.vercel.app/"/>
+        <meta property="og:url" content="https://next-furniture-ten.vercel.app/"/>
         <meta property="og:title" content="Кубань Мебель — Производство качественной мебели по ценам фабрики."/>
         <meta property="og:description" content="Качественная мебель для дома и офиса в Краснодаре. Широкий выбор диванов, кроватей, столов и другой мебели по ценам фабрики."/>
         <meta property="og:image" content=""/>
         <meta property="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:url" content="https://next-furniture-lime.vercel.app/"/>
+        <meta property="twitter:url" content="https://next-furniture-ten.vercel.app/"/>
         <meta property="twitter:title" content="Кубань Мебель — Производство качественной мебели по ценам фабрики."/>
         <meta property="twitter:description" content="Качественная мебель для дома и офиса в Краснодаре. Широкий выбор диванов, кроватей, столов и другой мебели по ценам фабрики."/>
         <meta property="twitter:image" content=""/>
