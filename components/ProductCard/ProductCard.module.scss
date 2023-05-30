@@ -1,0 +1,48 @@
+@import '../../sass/mixin';
+
+.card {
+  width: 31%; 
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  margin: 10px;
+}
+
+.block {
+  width: 90%;
+  height: 80px;
+  text-align: center;
+  background-color: #00000040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #fff;
+  transition:  0.4s ease-in-out;
+  
+
+  &:hover {
+    color: #FE485E;
+    background-color: #ffffff00;
+  }
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 300;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+@include lgb {
+  .title {
+    font-size: 20px;
+  }
+}
+
+@include lg {
+  .card {
+    width: 100%;
+  }
+}

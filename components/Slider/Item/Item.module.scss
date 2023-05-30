@@ -1,0 +1,84 @@
+@import '../../../sass/mixin';
+
+.item {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.link {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  background-color: #FE2F47;
+  border-radius: 40px;
+  width: 260px;
+  height: 65px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  transition: background-color 0.4s ease-in-out;
+  margin: 20px 0px 0px 0px;
+
+  &:hover {
+    background-color: #af1829;
+  }
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 64px;
+  text-align: center;
+}
+
+.section {
+  width:90%;
+  background-color: #ffffff3f;
+  border-radius: 0px 0px 20px 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+
+  h2 {
+    font-weight: 400;
+    font-size: 32px;
+  }
+}
+
+@include lg {
+  .section {
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+
+@include md {
+  .name {
+    font-size: 40px;
+  }
+}
+
+@include sm {
+  .section {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .name {
+    font-size: 32px;
+  }
+  .link {
+    width: 200px;
+    font-size: 18px;
+    height: 50px;
+  }
+}

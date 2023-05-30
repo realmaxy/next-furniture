@@ -1,0 +1,99 @@
+@import '../../sass/mixin';
+
+.header {
+  display: flex;
+  flex-direction: column;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+ .textBlock {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+ }
+
+ .top {
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+ }
+
+  .bottom {
+    display: flex;
+    width: 100%;
+    height: 53px;
+    background-color: #000;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .top, .bottom {
+    padding: 0px 50px;
+  }
+
+  .link {
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 15px;
+    transition: color 0.4s ease-in-out;
+
+    &:active, &:hover {
+      color: #FE485E
+    }
+  }
+
+}
+
+
+.title{
+  margin-bottom: 10px;
+  
+  font-size: 16px;
+ }
+
+ .text {
+  font-weight: 400;
+  transition: color 0.4s ease-in-out;
+
+  &:hover {
+    color: #FE485E;
+  }
+}
+
+
+
+.phone {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.phone::before {
+  content: '';
+  height: 60%;
+  width: 1px;
+  border-radius: 100%;
+  left: -20px;
+  background-color: #D9D9D9;
+  position: absolute;
+}
+
+@include sm {
+  .title {
+    font-size: 13px;
+  }
+  .text {
+    font-size: 13px;
+  }
+  .logo {
+    width: 60px;
+  }
+  .phone::before {
+    display: none;
+  }
+  .top, .bottom {
+    padding: 0px 15px;
+  }
+  .link {
+    font-size: 14px;
+  }
+}

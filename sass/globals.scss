@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Sofia+Sans:wght@300&family=Ubuntu:wght@400;700&display=swap');
+@import './mixin';
+
+body {
+  font-family: 'Sofia Sans', sans-serif;
+  background-color: #fff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+ 
+/* Скрываем scrollbar для IE, Edge и Firefox */
+
+  
+
+
+ul, li {
+  list-style: none;
+}
+
+h1{
+  font-size: 36px;
+}
+
+.app {
+  position: relative;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+}

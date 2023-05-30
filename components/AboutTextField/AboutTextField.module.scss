@@ -1,0 +1,44 @@
+@import '../../sass/mixin';
+
+.large {
+  width: 80%;
+}
+
+.small {
+  width: 45%;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 4px;
+    background-color: #000;
+    bottom: -10px;
+    left: 0;
+  }
+}
+
+.text {
+  margin: 30px 0px 0px 0px;
+  font-size: 20px;
+  color: #6e6e6e;
+}
+
+@include md {
+  .large, .small {
+    width: 80%;
+  }
+}
+
+@include sm {
+  .large, .small {
+    width: 100%;
+  }
+}
