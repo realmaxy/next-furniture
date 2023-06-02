@@ -53,13 +53,15 @@ export default function ImagesGallery({images, title}) {
   }
   else {
     return (
-      <div className={s.one} style={{
-        background: `url("/${images[0]}.png")`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}>
-        <div className={s.block}>
-          <h2 className={s.title}>{title}</h2>
+      <div className={s.row}>
+        <div className={s.one} style={{
+          background: `url("/${images[0]}.png")`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}>
+          <div className={s.block}>
+            <h2 className={s.title}>{title}</h2>
+          </div>
         </div>
       </div>
     )
