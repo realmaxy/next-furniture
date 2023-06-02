@@ -1,8 +1,6 @@
-import {cards} from './data'
+export const find = (id, array = []) => {
 
-export const find = (id) => {
-
-  for(let item of cards) {
+  for(let item of array) {
     if(item.id === id) {
       return(item)
     }

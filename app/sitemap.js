@@ -1,4 +1,4 @@
-import { cards } from "./products/data"
+import { cards } from "./products/items"
 
 export default async function sitemap() {
   const routes = ['', 'about', 'products'].map(route => ({

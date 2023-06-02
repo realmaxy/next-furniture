@@ -1,27 +1,27 @@
 export const items = [
   {
-    name: 'kitchen',
+    name: 'kitchens',
     title: 'Стильные кухни',
-    image: 'kitchen'
+    image: 'kitchens'
   },
   {
-    name: 'bedroom',
+    name: 'bedrooms',
     title: 'Удобные спальни',
-    image: 'bedroom'
+    image: 'bedrooms'
   },
   {
-    name: 'hallway',
+    name: 'hallways',
     title: 'Функциональные прихожие',
-    image: 'hallway'
+    image: 'hallways'
   },
   {
-    name: 'office',
+    name: 'offices',
     title: 'Комфортные кабинеты',
-    image: 'office'
+    image: 'offices'
   },
   {
-    name: 'livingroom',
+    name: 'livingrooms',
     title: 'Уютные гостиные',
-    image: 'livingroom'
+    image: 'livingrooms'
   },
 ]
