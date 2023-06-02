@@ -22,7 +22,7 @@ export default function ImagesGallery({images, title}) {
       </div>
     )
   }
-  else {
+  else if(images.length === 3) {
     return (
       <div className={s.row}>
         <div className={s.big} style={{
@@ -47,6 +47,19 @@ export default function ImagesGallery({images, title}) {
             backgroundSize: "cover",
           }}>
           </div>
+        </div>
+      </div>
+    )
+  }
+  else {
+    return (
+      <div className={s.big} style={{
+        background: `url("/${images[0]}.png")`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}>
+        <div className={s.block}>
+          <h2 className={s.title}>{title}</h2>
         </div>
       </div>
     )

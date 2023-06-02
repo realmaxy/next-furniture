@@ -1,5 +1,3 @@
-'use client'
-
 import ProductCard from "@/components/ProductCard/ProductCard";
 import s from './page.module.scss'
 import { categories } from "../data";
