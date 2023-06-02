@@ -6,6 +6,7 @@ export default function page() {
   
   return (
     <div className="container">
+      <h2 className={s.title}>ПРОДАЖА МЕБЕЛИ В КРАСНОДАРЕ ПО ЦЕНАМ ФАБРИКИ</h2>
       <div className={s.products}>
         {categories.map((item, index) => <ProductCard name={item.name} key={index} link={item.id} image={item.image}/>)}
       </div>

@@ -9,8 +9,38 @@
   padding: 30px 0px 10px 0px;
 }
 
+.title {
+  text-align: center;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 30px 0px 20px 0px;
+
+  &::after{
+    content: '';
+    position: absolute;
+    width: 60%;
+    background-color: #000;
+    height: 3px;
+    left: 20%;
+    bottom: -20px;
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
 @include lg {
   .products {
     flex-direction: column;
+  }
+  .title {
+    font-size: 34px;
+  }
+}
+
+@include md {
+  .title {
+    font-size: 28px;
   }
 }
