@@ -25,6 +25,10 @@ export default function ProductPage({params}) {
   return (
     <div className='container'>
       <ImagesGallery className={s.images} images={item.additional} title={item.name}/>
+      <div className={s.pricebox}>
+        <h1 className={s.title}>СТОИМОСТЬ КОМПЛЕКТА МЕБЕЛИ</h1>
+        <h1 className={s.price}>{item.price}</h1>
+      </div>
       <div className={s.row}>
         <div className={s.content}>
           <h1 className={s.title}>{item.name}</h1>
