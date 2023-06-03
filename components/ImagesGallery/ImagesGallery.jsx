@@ -1,6 +1,6 @@
 import s from './ImagesGallery.module.scss'
 
-export default function ImagesGallery({images, title}) {
+export default function ImagesGallery({images}) {
   if(images.length === 2) {
     return (
       <div className={s.row}>
@@ -9,9 +9,6 @@ export default function ImagesGallery({images, title}) {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}>
-          <div className={s.block}>
-            <h2 className={s.title}>{title}</h2>
-          </div>
         </div>
         <div className={s.small} style={{
           background: `url("/${images[1]}.png")`,
@@ -30,9 +27,6 @@ export default function ImagesGallery({images, title}) {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}>
-          <div className={s.block}>
-            <h2 className={s.title}>{title}</h2>
-          </div>
         </div>
         <div className={s.column}>
           <div className={s.first} style={{
@@ -59,9 +53,6 @@ export default function ImagesGallery({images, title}) {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}>
-          <div className={s.block}>
-            <h2 className={s.title}>{title}</h2>
-          </div>
         </div>
       </div>
     )
