@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import s from './ImagesGallery.module.scss'
 
 export default function ImagesGallery({images}) {
@@ -18,6 +19,11 @@ export default function ImagesGallery({images}) {
         </div>
       </div>
     )
+    // return (
+    //   <div className={s.row}>
+    //     <Image src={`/${images[0]}.png`} />
+    //   </div>
+    // )
   }
   else if(images.length === 3) {
     return (
@@ -51,7 +57,8 @@ export default function ImagesGallery({images}) {
         <div className={s.one} style={{
           background: `url("/${images[0]}.png")`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+          backgroundSize: "contain",
+          backgroundPosition: "center"
         }}>
         </div>
       </div>
