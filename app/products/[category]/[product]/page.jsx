@@ -1,5 +1,3 @@
-'use client'
-
 import ImagesGallery from '@/components/ImagesGallery/ImagesGallery';
 import { find } from '../../find';
 import s from './page.module.scss'
@@ -18,8 +16,6 @@ export default function ProductPage({params}) {
 
   const category = find(params.category, categories)
   const item = find(params.product, category.items)
-
-  console.log(category, item)
 
   return (
     <div className='container'>

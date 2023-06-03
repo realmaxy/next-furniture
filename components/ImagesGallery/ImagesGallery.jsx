@@ -57,7 +57,6 @@ export default function ImagesGallery({images}) {
         <div className={s.one} style={{
           background: `url("/${images[0]}.png")`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
           backgroundPosition: "center"
         }}>
         </div>
