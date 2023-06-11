@@ -2,7 +2,7 @@ export const items = [
   {
     name: 'kitchens',
     title: 'Стильные кухни',
-    image: 'praguekccard'
+    image: 'cataleyakccard'
   },
   {
     name: 'bedrooms',
