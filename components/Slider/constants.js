@@ -2,26 +2,26 @@ export const items = [
   {
     name: 'kitchens',
     title: 'Стильные кухни',
-    image: 'praguekc'
+    image: 'praguekccard'
   },
   {
     name: 'bedrooms',
     title: 'Удобные спальни',
-    image: 'miamibr'
+    image: 'miamibrcard'
   },
   {
     name: 'hallways',
     title: 'Функциональные прихожие',
-    image: 'demetrahw'
+    image: 'demetrahwcard'
   },
   {
     name: 'offices',
     title: 'Комфортные кабинеты',
-    image: 'demetraof'
+    image: 'demetraofcard'
   },
   {
     name: 'livingrooms',
     title: 'Уютные гостиные',
-    image: 'demetralr'
+    image: 'demetralrcard'
   },
 ]

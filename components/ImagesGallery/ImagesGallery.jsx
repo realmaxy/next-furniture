@@ -1,66 +1,22 @@
+'use client'
+
+import '@splidejs/react-splide/css';
 import Image from 'next/image'
 import s from './ImagesGallery.module.scss'
+import { Splide, SplideSlide } from '@splidejs/react-splide'
 
 export default function ImagesGallery({images}) {
-  if(images.length === 2) {
-    return (
-      <div className={s.row}>
-        <div className={s.big} style={{
-          background: `url("/${images[0]}.png")`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}>
-        </div>
-        <div className={s.small} style={{
-          background: `url("/${images[1]}.png")`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}>
-        </div>
-      </div>
-    )
-    // return (
-    //   <div className={s.row}>
-    //     <Image src={`/${images[0]}.png`} />
-    //   </div>
-    // )
-  }
-  else if(images.length === 3) {
-    return (
-      <div className={s.row}>
-        <div className={s.big} style={{
-          background: `url("/${images[0]}.png")`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}>
-        </div>
-        <div className={s.column}>
-          <div className={s.first} style={{
-            background: `url("/${images[1]}.png")`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}>
-          </div>
-          <div className={s.second} style={{
-            background: `url("/${images[2]}.png")`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}>
-          </div>
-        </div>
-      </div>
-    )
-  }
-  else {
-    return (
-      <div className={s.row}>
-        <div className={s.one} style={{
-          background: `url("/${images[0]}.png")`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center"
-        }}>
-        </div>
-      </div>
-    )
-  }
+
+  console.log(images)
+
+  return (
+  <Splide className={s.slider}>
+    {images.map((item)=>
+      <SplideSlide key={crypto.randomUUID} className={s.slide}>
+        <Image src={`/${item}.jpg`} key={crypto.randomUUID} fill={true} alt='Product image'/>
+      </SplideSlide>
+    )}
+  </Splide>
+)
+    
 }

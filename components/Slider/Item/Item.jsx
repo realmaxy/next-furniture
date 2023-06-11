@@ -4,7 +4,7 @@ import s from './Item.module.scss'
 export default function Item({title, link, image}) {
   return (
     <div className={s.item} style={{
-      background: `url("/${image}.png")`,
+      background: `url("/${image}.jpg")`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover"
     }}>

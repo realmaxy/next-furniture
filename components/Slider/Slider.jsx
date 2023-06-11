@@ -1,4 +1,5 @@
 'use client'
+
 import '@splidejs/react-splide/css';
 import { items } from './constants'
 import Item from './Item/Item'
@@ -12,7 +13,7 @@ export default function Slider() {
       <SplideSlide key={item.name}>
         <Item title={item.title} image={item.image} key={item.name} link={item.name}/>
       </SplideSlide>
-        )}
+      )}
     </Splide>
   )
 }

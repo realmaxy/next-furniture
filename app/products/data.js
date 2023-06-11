@@ -1,7 +1,7 @@
 export const kitchens = [
   {
     name: 'КУХНЯ ПРАГА',
-    image: 'praguekc',
+    image: 'praguekccard',
     category: 'kitchens',
     id: 'kitchen-prague',
     price: '73,811 ₽',
@@ -13,7 +13,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ СОФИЯ',
-    image: 'sofiakc11',
+    image: 'sofiakc1card',
     category: 'kitchens',
     id: 'kitchen-sofia1',
     price: '174,520 ₽',
@@ -25,7 +25,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ СОФИЯ 2',
-    image: 'sofiakc21',
+    image: 'sofiakc2card',
     category: 'kitchens',
     id: 'kitchen-sofia2',
     price: '194,860 ₽',
@@ -37,7 +37,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ СОФИЯ 3',
-    image: 'sofiakc31',
+    image: 'sofiakc3card',
     category: 'kitchens',
     id: 'kitchen-sofia3',
     price: '285,155 ₽',
@@ -49,7 +49,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ СОФИЯ 4',
-    image: 'sofiakc41',
+    image: 'sofiakc4card',
     category: 'kitchens',
     id: 'kitchen-sofia4',
     price: '176,585 ₽',
@@ -61,7 +61,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ НОВА 1',
-    image: 'novakc11',
+    image: 'novakc1card',
     category: 'kitchens',
     id: 'kitchen-nova',
     price: '131,514 ₽',
@@ -73,7 +73,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ НОВА 3',
-    image: 'novakc31',
+    image: 'novakc3card',
     category: 'kitchens',
     id: 'kitchen-nova3',
     price: '129,300 ₽',
@@ -85,7 +85,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ НОВА 4',
-    image: 'novakc41',
+    image: 'novakc4card',
     category: 'kitchens',
     id: 'kitchen-nova4',
     price: '223,697 ₽',
@@ -97,7 +97,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ НОВА 5',
-    image: 'novakc51',
+    image: 'novakc5card',
     category: 'kitchens',
     id: 'kitchen-nova5',
     price: '147,011 ₽',
@@ -109,7 +109,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ САН МАРИНО',
-    image: 'sanmarinokc1',
+    image: 'sanmarinokccard',
     category: 'kitchens',
     id: 'kitchen-sanmarino',
     price: '123,954 ₽',
@@ -121,7 +121,7 @@ export const kitchens = [
   },
   {
     name: 'КУХНЯ ДЕМЕТРА',
-    image: 'demetrakc1',
+    image: 'demetrakccard',
     category: 'kitchens',
     id: 'kitchen-demetra',
     price: '161,496 ₽',
@@ -136,7 +136,7 @@ export const kitchens = [
 export const bedrooms = [
   {
     name: 'СПАЛЬНЯ МАЙАМИ',
-    image: 'miamibr',
+    image: 'miamibrcard',
     category: 'bedrooms',
     id: 'bedroom-miami',
     price: '150,140 ₽',
@@ -148,19 +148,19 @@ export const bedrooms = [
   }, 
   {
     name: 'СПАЛЬНЯ ВИНЧЕНЦА',
-    image: 'vincenza1',
+    image: 'vincenzacard',
     category: 'bedrooms',
     id: 'bedroom-vincenza',
     price: '238,270 ₽',
     colors: '2',
-    additional: ['vincenza1', 'demetrabr2', 'vincenza3'],
+    additional: ['vincenzabr1', 'vincenzabr2', 'vincenzabr3'],
     description: 'Воплощение классического стиля и аристократизма. Она не перегружена лишними деталями, но от этого не теряет своего шарма. Гнутые фасады из МДФ покрыты высококачественными лакокрасочными материалами премиум-класса марки Renner с соблюдением требуемых технологий. Мягкое изголовье кровати-залог комфортного сна. Искусственная кожа не только выглядит эстетично, но и практична в использовании. Обивка устойчива к истиранию и появлению загрязнений. В комплект также входят вместительный шкаф и трельяж, с подзеркальником и зеркалом, тумбочки, мягкий пуф. Здесь есть все для создания уюта в вашем доме.',
     metatitle: '',
     metadescription: ''
   },
   {
     name: 'СПАЛЬНЯ Деметра',
-    image: 'demetrabr1',
+    image: 'demetrabrcard',
     category: 'bedrooms',
     id: 'bedroom-demetra',
     price: '149,770 ₽',
@@ -172,7 +172,7 @@ export const bedrooms = [
   },
   {
     name: 'СПАЛЬНЯ Каталея',
-    image: 'cataleyabr1',
+    image: 'cataleyabrcard',
     category: 'bedrooms',
     id: 'bedroom-cataleya',
     price: '119,000 ₽',
@@ -184,67 +184,67 @@ export const bedrooms = [
   },
   {
     name: 'СПАЛЬНЯ ИНКТАНТО',
-    image: 'incantobr1',
+    image: 'incantobrcard',
     category: 'bedrooms',
     id: 'bedroom-incanto',
     price: '140,870 ₽',
     colors: '2',
-    additional: ['incantobr1', 'incantobr2', 'incantobr3'],
+    additional: ['incantobr1'],
     description: 'Incanto в переводе с итальянского - очарование. Этот поистине сказочный комплект мебели создаст атмосферу уюта в вашем доме. Спальня выполнена из высококачественного МДФ и покрыта несколькими слоями эмали и лака премиум класса марки "Renner", декорирована изготовленными вручную элементами из пенополиуретана с покрытием из серебряной патины.Шарм комплекту придает мягкое изголовье кровати, оно не только придает эстетичный вид, но и практично в использовании-обивка из антивандальной ткани устойчива к истиранию и появлению загрязнений. Модульная система позволяет создать спальню вашей мечты с функциональным и практичным шкафом, кроватью с ортопедическим основанием, тумбочками для мелочей, трельяжем, зеркалом, вместительным комодом.',
     metatitle: '',
     metadescription: ''
   },
   {
     name: 'СПАЛЬНЯ ЛУИЗА',
-    image: 'louisebr1',
+    image: 'louisebrcard',
     category: 'bedrooms',
     id: 'bedroom-louise',
     price: '106,830 ₽',
     colors: '2',
-    additional: ['louisebr1', 'louisebr2'],
+    additional: ['louisebr1', 'louisebr2', 'louisebr3'],
     description: 'Спальня Луиза - идеальный баланс красоты и функциональности. Модульная система позволяет подобрать комплект под любое помещение.',
     metatitle: '',
     metadescription: ''
   },
   {
     name: 'СПАЛЬНЯ НЬЮ-ЙОРК',
-    image: 'newyorkbr1',
+    image: 'newyorkbrcard',
     category: 'bedrooms',
     id: 'bedroom-newyork',
     price: '139,830 ₽',
     colors: '3',
-    additional: ['newyorkbr1', 'newyorkbr2'],
+    additional: ['newyorkbr1', 'newyorkbr2', 'newyorkbr3'],
     description: 'Идеальный баланс между эстетикой и практичностью- так можно описать нашу новинку- спальню "Нью-Йорк"Коллекция «Нью-Йорк», несомненно, станет беспроигрышным вариантом для оформления спальни.Мебель выполнена в соответствии со всеми правилами эргономики: модули универсальны и функциональны, обладают характером и собственным стилем.Стильно и эффектно смотрится яркая, но в то же время элегантная фрезеровка.Три варианта цветовых решений: Белый, Капучино, Антрацит помогут воплотить самые дерзкие задумки в современном интерьере.',
     metatitle: '',
     metadescription: ''
   },
   {
     name: 'СПАЛЬНЯ ГОЛД',
-    image: 'goldbr1',
+    image: 'goldbrcard',
     category: 'bedrooms',
     id: 'bedroom-gold',
     price: '139,320 ₽',
     colors: '3',
-    additional: ['goldbr1', 'goldbr2'],
+    additional: ['goldbr1', 'goldbr2', 'goldbr3'],
     description: 'Идеальный баланс между эстетикой и практичностью- так можно описать нашу новинку - спальню "Голд".Коллекция «Голд», несомненно, станет беспроигрышным вариантом для оформления спальни.Мебель выполнена в соответствии со всеми правилами эргономики: модули универсальны и функциональны, обладают характером и собственным стилем.Три варианта цветовых решений: Белый, Мокко, Антрацит помогут воплотить самые дерзкие задумки в современном интерьере.',
     metatitle: '',
     metadescription: ''
   },
   {
     name: 'СПАЛЬНЯ АЗАЛИЯ',
-    image: 'azaleabr1',
+    image: 'azaleabrcard',
     category: 'bedrooms',
     id: 'bedroom-azalea',
     price: '111,410 ₽',
     colors: '2',
-    additional: ['azaleabr1', 'azaleabr2'],
+    additional: ['azaleabr1', 'azaleabr2', 'azaleabr3'],
     description: 'В спальню «Азалия» вы влюбитесь с первого взгляда.В комплект входит шкаф 4-х дверный, трельяж, подзеркальник с зеркалом, 2 тумбы, кровать 1600 х 2000, либо 1800 х 2000.Фасады из фрезерованного МДФ покрыты пленкой ПВХ, которая наносится методом термо-вакуумного прессования на станке Berkle (Германия) и имеет хорошие эксплуатационные свойства: высокую устойчивость к изменению цвета, механическим повреждениям, воздействию влаги и высоких температур. Ручки, шариковые направляющие ящиков, дверные петли от компании Boyard очень практичны и долговечны в использовании, при желании можно дополнить комплектацию доводчиками.Элементы декора из пенополиуретана покрыты золотой патиной, что создает роскошный образ.По сложности исполнения и качеству спальня «Азалия» не уступает популярной сейчас мебели из Китая. Цены Вас приятно удивят.«Азалия» - это комфорт и роскошь, доступные каждому!',
     metatitle: '',
     metadescription: ''
   },
   {
     name: 'СПАЛЬНЯ ВЕНЕРА',
-    image: 'venusbr1',
+    image: 'venusbrcard',
     category: 'bedrooms',
     id: 'bedroom-venus',
     price: '79,540 ₽',
@@ -256,7 +256,7 @@ export const bedrooms = [
   },
   {
     name: 'СПАЛЬНЯ АНАСТАСИЯ',
-    image: 'anastasiabr1',
+    image: 'anastasiabrcard',
     category: 'bedrooms',
     id: 'bedroom-anastasia',
     price: '76,510 ₽',
@@ -271,7 +271,7 @@ export const bedrooms = [
 export const hallways = [
   {
     name: 'ПРИХОЖАЯ ДЕМЕТРА',
-    image: 'demetrahw',
+    image: 'demetrahwcard',
     category: 'hallways',
     id: 'hallway-demetra',
     price: '73,730 ₽',
@@ -286,7 +286,7 @@ export const hallways = [
 export const offices = [
   {
     name: 'КАБИНЕТ ДЕМЕТРА',
-    image: 'demetraof',
+    image: 'demetraofcard',
     category: 'offices',
     id: 'office-demetra',
     price: '',
@@ -301,7 +301,7 @@ export const offices = [
 export const livingrooms = [
   {
     name: 'ГОСТИНАЯ ДЕМЕТРА',
-    image: 'demetralr',
+    image: 'demetralrcard',
     category: 'livingrooms',
     id: 'livingroom-demetra',
     price: '',
@@ -316,7 +316,7 @@ export const livingrooms = [
 export const categories = [
   {
     name: 'Кухни',
-    image: 'praguekc',
+    image: 'praguekccard',
     id: 'kitchens',
     items: kitchens,
     metatitle: 'Кухонная мебель',
@@ -325,7 +325,7 @@ export const categories = [
   {
     name: 'Гостинные',
     id: 'livingrooms',
-    image: 'demetralr',
+    image: 'demetralrcard',
     items: livingrooms,
     metatitle: 'Модульные гостинные',
     metadescription: ''
@@ -333,7 +333,7 @@ export const categories = [
   {
     name: 'Спальни',
     id: 'bedrooms',
-    image: 'miamibr',
+    image: 'miamibrcard',
     items: bedrooms,
     metatitle: 'Спальная мебель',
     metadescription: ''
@@ -341,7 +341,7 @@ export const categories = [
   {
     name: 'Прихожие',
     id: 'hallways',
-    image: 'demetrahw',
+    image: 'demetrahwcard',
     items: hallways,
     metatitle: 'Модульные прихожие',
     metadescription: ''
@@ -349,7 +349,7 @@ export const categories = [
   {
     name: 'Кабинеты',
     id: 'offices',
-    image: 'demetraof',
+    image: 'demetraofcard',
     items: offices,
     metatitle: 'Офисная мебель',
     metadescription: ''

@@ -1,6 +1,7 @@
 import AboutTextField from "@/components/AboutTextField/AboutTextField"
 import { about } from "./data"
 import s from './page.module.scss'
+import Image from "next/image"
 
 export default function page() {
 

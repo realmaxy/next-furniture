@@ -5,9 +5,10 @@ export default function ProductCard({name, link, image, isProduct, category}) {
   if(isProduct === false) {
     return (
       <Link href={`/products/${category}/${link}`}  className={s.card} style={{
-        background: `url("/${image}.png")`,
+        background: `url("/${image}.jpg")`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition: 'center'
       }}>
         <div className={s.block}>
           <h2 className={s.title}>{name}</h2>
@@ -18,7 +19,7 @@ export default function ProductCard({name, link, image, isProduct, category}) {
   else {
     return (
       <Link href={`/products/${link}`}  className={s.card} style={{
-        background: `url("/${image}.png")`,
+        background: `url("/${image}.jpg")`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}>
