@@ -1,4 +1,18 @@
+@import '../../sass/mixin';
+
 .slide {
   width: 900px;
   height: 600px;
+}
+
+@include lg {
+  .slide {
+    height: 345px;
+  }
+}
+
+@include sm {
+  .slide {
+    height: 200px;
+  }
 }
